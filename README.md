@@ -42,3 +42,7 @@ string user = "KULLANICI_ADINIZ"; // Örn: root
 string password = "ŞİFRENİZ";      
 string port = "3306";
 ```
+
+### 🖼 Resim
+![Telefon Rehberi](https://github.com/user-attachments/assets/f5efdb82-fa48-404c-b3d0-c669a386df2f)
+
