@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS kisiler (
     telefon_numarasi VARCHAR(11) NOT NULL,
     telefon_turu ENUM('GSM', 'Sabit Telefon') NOT NULL
 );
-
+```
 
 ### 🔐 Veritabanı Bağlantısı
 
@@ -41,3 +41,4 @@ string database = "telefon_rehberi";
 string user = "KULLANICI_ADINIZ"; // Örn: root
 string password = "ŞİFRENİZ";      
 string port = "3306";
+```
