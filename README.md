@@ -13,7 +13,7 @@ Bu proje, MySQL veritabanı kullanarak kişi ekleme, listeleme, arama, güncelle
 
 ## 🧰 Kurulum
 
-### 1. MySQL Veritabanı Oluşturun
+###  MySQL Veritabanı Oluşturun
 
 Aşağıdaki SQL sorgusu ile `telefon_rehberi` veritabanını ve `kisiler` tablosunu oluşturabilirsiniz:
 
@@ -29,3 +29,15 @@ CREATE TABLE IF NOT EXISTS kisiler (
     telefon_numarasi VARCHAR(11) NOT NULL,
     telefon_turu ENUM('GSM', 'Sabit Telefon') NOT NULL
 );
+
+
+### 🔐 Veritabanı Bağlantısı
+
+Proje, MySQL veritabanına aşağıdaki bilgilerle bağlanmaktadır. Kendi sisteminize uygun şekilde `user` ve `password` değerlerini değiştiriniz.
+
+```csharp
+string server = "localhost";
+string database = "telefon_rehberi";
+string user = "KULLANICI_ADINIZ"; // Örn: root
+string password = "ŞİFRENİZ";      
+string port = "3306";
